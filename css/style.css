@@ -14,6 +14,7 @@ body{
 a{
     text-decoration: none;
     color: inherit;
+    display: inline-block;
 }
 .container {
     max-width: 1080px;
@@ -21,9 +22,10 @@ a{
     padding: 0 10px;
 }
 .header {
-    background-image: url(../images/header-bg.png);
+    background-origin: content-box;
+    background-image: url(../images/header-bg1.png);
     background-repeat: no-repeat;
-    background-position:  center;
+    background-position: center;
     background-size: cover;
 }
 .header__inner{
@@ -32,23 +34,27 @@ a{
 }
 .header__top{
     display: flex;
-    padding: 16px 0 82px;
+    padding: 16px 0 72px;
     align-items: center;
     justify-content: space-between;
 }
-
+.logo{
+    display: block;
+    width: 170px;
+    height: 87px;
+    
+}
 .menu__list{
     display: flex;
     font-size: 16px;
     line-height: 22px;
-    align-items: center;
-    margin-left: 60px;
-    margin-right: 54px;
-
-    
+    text-align: left;
+    padding-left: 60px;
+      
 }
 .menu__item{
-    margin-right: 22px;
+    display: inline-block;
+    margin-left: 25px;
 }
 .menu__link{
     font-family: 'Manrope';
@@ -64,6 +70,7 @@ a{
     line-height: 27px;
     color:#fff;
     font-weight: 800;
+    margin-left: 45px;
 }
 .header__top-btn{
     padding: 18px 32px;
@@ -75,6 +82,8 @@ a{
     background: #5BBFC8;
     font-weight: 800;
     border: none;
+    margin-left: auto;
+    
     
 }
 .header__content{
@@ -98,7 +107,7 @@ a{
 }
 .header__button{
     display: inline-block;
-    padding: 22px 16px 22px 19px;
+    padding: 18px 16px 20px 19px;
     background: #FFD200;
     border: none;
     border-radius: 5px;
@@ -107,24 +116,30 @@ a{
     line-height: 22px;
     color:#000;
     text-align: center;
-    align-items: center;
+    vertical-align: center;
 }
-
 .header__button-img{
+    
     margin-left: 7px;
     margin-bottom: -10px;
-    
 }
 
 .header__cards-box{
-    display: flex;
-    
+    display: flex;   
 }
 .header__card-text{
     display: block;
 }
-
 .header__card-item{
+    font-size: 19px;
+    line-height: 25px;
+    border-radius: 10px;
+    padding-left: 17px;
+    padding-right: 63px;
+    padding-top: 16px;
+    width: 204px;
+}
+.header__card-item_size-bigger{
     font-size: 16px;
     line-height: 22px;
     color:#000;
@@ -132,107 +147,11 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 66px 24px 66px 42px;
+    padding: 66px 24px 59px 42px;
     border-radius: 10px;
     margin-right: 11px;
     width: 412px;
 }
-.header__card-sedan{
-    font-size: 19px;
-    line-height: 25px;
-    color:#000;
-    background: #FFD300;
-    border-radius: 10px;
-    padding-left: 17px;
-    padding-right: 63px;
-    padding-top: 16px;
-    margin-right: 11px;
-    width: 204px;
-}
-.header__sedan-price{
-    color: #534407;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 19px;
-    text-align: center;
-    background: #DEB905;
-    border-radius: 5px;
-    padding: 5px 8px;
-    display: inline-block;
-    margin-bottom: 13px;
-       
-}
-.header__sedan-logo{
-    width: 108px;
-    height: 108px;
-    margin-top: 88px;
-    display: block;
-    
-}
-.header__card-jeep{
-    font-size: 19px;
-    line-height: 25px;
-    color:#fff;
-    background: #4B5257;
-    border-radius: 10px;
-    padding-left: 17px;
-    padding-right: 63px;
-    padding-top: 16px;
-    margin-right: 11px;
-    width: 204px;
-}
-.header__jeep-price{
-    color: #fff;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 19px;
-    text-align: center;
-    background: #B0B0B0;;
-    border-radius: 5px;
-    padding: 5px 8px;
-    display: inline-block;
-    margin-bottom: 13px;
-       
-}
-.header__jeep-logo{
-    width: 108px;
-    height: 108px;
-    margin-top: 108px;
-    display: block;
-    
-}
-.header__card-truck{
-    font-size: 19px;
-    line-height: 25px;
-    color:#000;
-    background: #5BBFC8;
-    border-radius: 10px;
-    padding-left: 17px;
-    padding-right: 63px;
-    padding-top: 16px; 
-    width: 204px;
-}
-.header__truck-price{
-    color: #1E4D54;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 19px;
-    text-align: center;
-    background: #49A1A9;;;
-    border-radius: 5px;
-    padding: 5px 8px;
-    display: inline-block;
-    margin-bottom: 13px;
-       
-}
-.header__truck-logo{
-    width: 108px;
-    height: 108px;
-    margin-top: 108px;
-    display: block;
-    
-}
-
 .header__card-title{
     font-weight: 800;
     font-size: 30px;
@@ -241,12 +160,65 @@ a{
 }
 .header__card-hr{
     width: 88px;
-    height: 7px;
+    height: 5px;
     color: #000;
     background: #000;
     border: none;
     border-radius: 5px;
 }
+.header__card-item_theme-sun{
+    margin-right: 11px;
+    color:#000;
+    background: #FFD300; 
+}
+.header__card-price_theme-sun{
+    color: #534407;
+    background: #DEB905;     
+}
+.header__card-price{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 8px;
+    display: inline-block;
+    margin-bottom: 13px; 
+}
+.header__card-logo{
+    width: 108px;
+    height: 108px;
+    display: block;
+    margin-top: 72px;
+}
+.header__card-logo_theme-sedan{
+    
+}
+.header__card-item_theme-grey{
+    color:#fff;
+    background: #4B5257;
+    margin-right: 11px;
+    padding-left: 14px;
+    padding-right: 4px;
+}
+.header__card-price_theme-grey{
+    color: #fff;
+    background: #B0B0B0;
+}
+.header__card-logo_theme-sedan{
+
+}
+.header__card-item_theme-blue{
+    color:#000;
+    background: #5BBFC8;
+}
+.header__card-price_theme-blue{
+    color: #1E4D54;
+    background: #49A1A9;
+}
+
+
+
 
 
 
