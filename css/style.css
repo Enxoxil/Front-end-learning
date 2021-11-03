@@ -22,11 +22,13 @@ a{
     padding: 0 10px;
 }
 .header {
+    background: #F6F4F4;
     background-origin: content-box;
     background-image: url(../images/header-bg1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    
 }
 .header__inner{
     min-height: 100vh;
@@ -125,7 +127,8 @@ a{
 }
 
 .header__cards-box{
-    display: flex;   
+    display: flex;
+     
 }
 .header__card-text{
     display: block;
@@ -191,9 +194,6 @@ a{
     display: block;
     margin-top: 72px;
 }
-.header__card-logo_theme-sedan{
-    
-}
 .header__card-item_theme-grey{
     color:#fff;
     background: #4B5257;
@@ -205,9 +205,6 @@ a{
     color: #fff;
     background: #B0B0B0;
 }
-.header__card-logo_theme-sedan{
-
-}
 .header__card-item_theme-blue{
     color:#000;
     background: #5BBFC8;
@@ -217,8 +214,36 @@ a{
     background: #49A1A9;
 }
 
+.main__title{
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 55px;
+    color:#17181c;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
 
+.main_background{
+    background: #F6F4F4;
+    padding-top: 90px;
+}
 
+.main__sub-title{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 35px;
+    color: #17181C;
+    text-align: center;
+    padding-right: 50px;
+}
+.main__sub-title>span{
+    display: inline-block;
+    background-color: #FFD300;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-right: 10px;
+}
 
 
 
