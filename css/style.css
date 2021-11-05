@@ -242,7 +242,7 @@ a{
     color: #17181C;
     text-align: center;
     padding-right: 50px;
-    margin-bottom: 110px;
+    margin-bottom: 63px;
 }
 .main__sub-title>span{
     display: inline-block;
@@ -254,10 +254,15 @@ a{
 .main__content{
     color: #17181C;
     display: flex;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.main__content-img{
+    margin-right: 70px;
+    
 }
 .main__img{
-    max-width: 940px;
-    margin-left: auto;
+    display: block;
 }
 .main__text{
     margin-bottom: 58px;
@@ -271,7 +276,7 @@ a{
 .main__item:last-child{
     margin-bottom: 0;
 }
-.main__item>p{
+.main__item-text{
     display: inline-block;
     vertical-align: bottom;
     line-height: 16px;
