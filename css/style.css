@@ -325,10 +325,89 @@ a{
     padding-left: 29px;
     padding-top: 23px;
     padding-bottom: 23px;
+    margin-bottom: 24px;
 }
 .main__button{
-
+    margin-left: 76px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #17181c;
+    background: #FFD300;
+    padding: 23px 55px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 97px;
 }
 
+.benefits{
+    background-image: url(/project/images/benefist-bg.jpg);
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
+.benefits__title{
+ padding-top: 94px;
+ font-weight: 800;
+ font-size: 45px;
+ line-height: 55px;
+ color:#17181c;
+ text-transform: uppercase;
+ text-align: center;
+ font-family: "Manrope", serif;
+ padding-bottom: 163px;
 
+}
+.benefits__main{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 233px;
+}
+.beenfits__img{
+    display: block;
+    padding-top: 20px;
+    z-index: 1;
+    
+}
+.benefits__main-text{
+    display: block;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 800;
+    color: #17181c;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted #000;
+    max-width: 317px;
+    height: 100px;
+    position: relative;
+    
+}
+.benefits__main-left{
+    display: flex;
+    flex-direction: column;    
+}
+.benefits__main-text_left{
+    padding-left: 31px;
+    padding-top: 28px;
+}
+.benefits__main-text_left:first-child{
+    padding-top: 0;
+    height: 50px;
+}
+
+.benefits__main-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.benefits__main-text_right{
+    padding-top: 28px;
+    padding-left: 34px;
+    padding-right: 127px;
+}
+.benefits__main-text_right:first-child{
+    padding-top: 0;
+    height: 50px;
+}
