@@ -301,11 +301,11 @@ a{
     align-items: center;
     border-radius: 5px;   
 }
-.main__form{
+.form{
     display: flex;
     flex-direction: column;
 }
-.main__form-label{
+.form-label{
     font-weight: 500;
     font-size: 14px;
     line-height: 19px;
@@ -314,7 +314,7 @@ a{
     margin-bottom: 8px;
     
 }
-.main__input-tel{
+.input-tel{
     margin-left: 26px;
     border: none;
     background: #fff;
@@ -326,8 +326,10 @@ a{
     padding-top: 23px;
     padding-bottom: 23px;
     margin-bottom: 24px;
+    max-width: 350px;
+    border-radius: 5px;
 }
-.main__button{
+.button{
     margin-left: 76px;
     font-weight: bold;
     font-size: 16px;
@@ -341,7 +343,7 @@ a{
 }
 
 .benefits{
-    background-image: url(/project/images/benefist-bg.jpg);
+    background-image: url(/shinomontazh/images/benefist-bg.jpg);
     background-origin: content-box;
     background-repeat: no-repeat;
     background-position: center;
@@ -411,3 +413,35 @@ a{
     padding-top: 0;
     height: 50px;
 }
+.time{
+    padding-top: 128px;
+    padding-bottom: 107px;
+    background-image: url(/shinomontazh/images/time-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.time__title{
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 55px;text-align: center;
+    color:#17181c;
+    margin-left: 53px;
+    padding-bottom: 44px;
+}
+.button_black{
+    background: #17181C;
+    color:#fff;
+    margin-bottom: 0;
+    margin-left: 18px;
+    margin-top: 27px;
+}
+.time__form{
+    display: flex;
+    margin-left: 223px;
+
+}
+.time__input-tel_mini{
+    margin-bottom: 0;
+    padding-right: 100px;
+}
+
