@@ -367,7 +367,7 @@ a{
     justify-content: space-between;
     padding-bottom: 233px;
 }
-.beenfits__img{
+.benefits__img{
     display: block;
     padding-top: 20px;
     z-index: 1;
@@ -443,5 +443,30 @@ a{
 .time__input-tel_mini{
     margin-bottom: 0;
     padding-right: 100px;
+}
+
+.add-work{
+    background: #F7F4F4;
+}
+.add-work__title{
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 55px;
+    text-transform: uppercase;
+    color: #17181c;
+    padding-top: 94px;
+    padding-bottom: 71px;
+    display: block;
+    text-align: center
+}
+.add-work__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.add-work__item {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 35px;
+    color:#17181C;
 }
 
