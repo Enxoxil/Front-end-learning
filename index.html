@@ -108,7 +108,7 @@
               <label for="number" class="form-label">Ваш телефон</label>
               <input type="tel" class="input-tel" name="number" id="number" placeholder="+3 ( _ _ _ )   _ _ _    _ _    _ _">
             </form>
-            <button action="#" class="button">
+            <button action="#" class="main__button">
                 Оформить заявку
             </button>
           </div>
@@ -186,6 +186,36 @@
              <li class="map__item">Зона покрытия</li>
            </ul>
           </div>
+        </div>
+      </div>
+    </section>
+    <section class="price">
+      <div class="container">
+        <div class="price__inner">
+          <h2 class="price__title">
+            ЦЕНЫ НА МОБИЛЬНЫЙ<br> ШИНОМОНТАЖ
+          </h2>
+          <div class="price__header">
+            <p class="price__header-title">
+              Выберите Ø колёс
+            </p>
+            <div class="price__main">
+              <datalist class="rangeList" id="rangeList">
+                <option class="price__input-list" value="0" label="R 13-15"></option>
+                <option class="price__input-list" value="1" label="R 16"></option>
+                <option class="price__input-list" value="2" label="R 17"></option>
+                <option class="price__input-list" value="3" label="R 18"></option>
+                <option class="price__input-list" value="4" label="R 19"></option>
+                <option class="price__input-list" value="5" label="R 20"></option>
+                <option class="price__input-list" value="6" label="R 21-22">
+              </datalist>
+              <input class="price__input" type="range" min="0" max="6" list="rangeList">
+            </div>
+          </div>
+          <div class="price__table">
+
+          </div>
+
         </div>
       </div>
     </section>
