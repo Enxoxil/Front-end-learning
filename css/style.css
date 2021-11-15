@@ -485,7 +485,7 @@ a{
     color:#17181C;
 }
 .map{
-    background-image: url(images/map-bg.jpg);
+    background-image: url(../images/map-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
