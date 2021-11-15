@@ -112,7 +112,7 @@ a{
     line-height: 25px;
     max-width: 540px;
 }
-.header__button{
+.general__button{
     display: inline-block;
     padding: 18px 16px 20px 19px;
     background: #FFD200;
@@ -123,10 +123,8 @@ a{
     line-height: 22px;
     color:#000;
     text-align: center;
-    vertical-align: center;
 }
-.header__button-img{
-    
+.general__button-img{
     margin-left: 7px;
     margin-bottom: -10px;
 }
@@ -566,6 +564,7 @@ a{
 }
 .price__main{
     padding-left: 55px;
+    margin-bottom: 32px;
 }
 .rangeList{
     display: flex;
@@ -610,9 +609,35 @@ input[type=range]::-webkit-slider-thumb:hover{
 .price__input-list:not(:last-child){
     padding-right: 20px;
 }
-/* .price__input-list:first-child{
-    padding-right: 28px;
-}  */
+.price__table-inner{
+    padding-left: 116px;
+    padding-right: 116px;
+    color:#000;
+    margin-bottom: 68px;
+
+}
+.price__table{
+    width: 100%;
+}
+.table__data:nth-of-type(2n){
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 45px;
+    padding-right: 30px;
+}
+.table__data:nth-of-type(2n-1){
+    text-align: left;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 45px;
+    padding-left: 30px;
+}
+.price__btn{
+    text-align: center;
+    margin-bottom: 93px;
+}
+
 
 /* content: '';
 position: absolute;
