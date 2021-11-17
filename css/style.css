@@ -534,7 +534,7 @@ a{
     top: 4px
 }
 .price{
-    background: F7F4F4;
+    background: #F6F4F4;
 }
 .price__inner{
     padding-top: 92px;
@@ -572,6 +572,7 @@ a{
 .price__input{
     width: 100%;
    position: relative;
+   background: #F6F4F4;
 }
 input[type=range]{
     -webkit-appearance: none;
@@ -651,6 +652,7 @@ input[type=range]::-webkit-slider-thumb:hover{
 }
 .review{
     padding-bottom: 65px;
+    background: #F6F4F4;
 }
 .review__title{
     text-transform: uppercase;
@@ -681,6 +683,35 @@ input[type=range]::-webkit-slider-thumb:hover{
     font-size: 18px;
     line-height: 30px;
 }
+.partners{
+    background: #F6F4F4;
+    padding-bottom: 193px;
+}
+.partners__title{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 55px;
+    text-align: center;
+    color:#17181C;
+    padding-bottom: 78px;
+}
+.partners__main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.partners__item{
+    border-radius: 10px;
+    flex-basis: 19%;
+    background: #FFF;
+    margin-bottom: 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* content: '';
 position: absolute;
 width: 20px;
